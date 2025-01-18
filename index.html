@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bruno Gomes"> 
+    <meta name="description" content="Website de uma cafeteria">
+    <meta name="keywords" content="café, cafeteria, cappuccino, bebidas">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cafeteria</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#destaques">DESTAQUES</a></li>
+                <li><a href="#login">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="banner">
+        <img src="img/banner.png" alt="Banner da Cafeteria">
+    </section>
+    <section id="sobre" class="sobre">
+        <h2>Coffe</h2>
+        <p>
+            Venha nos visitar e descubra o sabor do nosso café especial! Na nossa cafeteria, oferecemos um ambiente aconchegante, perfeito para relaxar, colocar as conversas em dia ou aproveitar um momento produtivo. Sabores únicos, quitutes deliciosos e uma equipe pronta para atender você. Estamos te esperando! ☕✨
+        </p>
+        
+    </section>
+    <section id="destaques" class="destaques">
+        <h2>Destaques</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/cappuccino.jpg" alt="Imagem 1">
+                <p><strong>Cappuccino</strong> R$14,98</p>
+            </div>
+            <div class="card">
+                <img src="img/LatteMacchiato.jpg" alt="Imagem 2">
+                <p><strong>Latte Macchiato</strong> R$18,00</p>
+            </div>
+            <div class="card">
+                <img src="img/Mocha.jpg" alt="Imagem 3">
+                <p><strong>Mocha</strong> R$20,99</p>
+            </div>
+            <div class="card">
+                <img src="img/MatchaLatte.jpg" alt="Imagem 4">
+                <p><strong>Matcha Latte</strong> R$22,00</p>
+            </div>
+        </div>
+    </section>
+    <section id="login" class="login">
+        <h2>Login</h2>
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="nome@email.com">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Somente Números">
+            <button type="submit" class="btn">LOGIN</button>
+            <button type="reset" class="btn cancel">CANCELAR</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por <strong>Bruno Gomes</strong> - <a href="https://github.com/brunogomesz-c">Git Hub</a> - 2024</p>
+    </footer>
+</body>
+</html>
